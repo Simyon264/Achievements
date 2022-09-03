@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.7.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EXILED" Version="5.2.2" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="SuperSimpleTcp" Version="2.6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\exiled\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="GameStore-Exiled">
+      <HintPath>..\..\exiled\GameStore-Exiled.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>..\..\exiled\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\exiled\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SCPRebalance">
+      <HintPath>..\..\SCPRebalance\bin\Debug\net4.7.2\SCPRebalance.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\exiled\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
